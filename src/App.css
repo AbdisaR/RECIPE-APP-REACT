@@ -1,0 +1,16 @@
+.app{
+  min-height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  flex-flow: row wrap;
+}
+@media (max-width: 800px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
